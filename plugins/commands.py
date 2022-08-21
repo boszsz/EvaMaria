@@ -93,13 +93,18 @@ async def start(client, message):
         return
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('🔛 𝐀ᴅᴅ 𝐌ᴇ 𝐓ᴏ 𝐘ᴏᴜʀ 𝐆ʀᴏᴜᴘꜱ 🔛', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🤖 Updates', url='https://t.me/TeamEvamaria')
+            InlineKeyboardButton('𝐂ɪɴᴇᴍᴀꜱ 𝐎ꜰꜰɪᴄɪᴀʟ™', url='https://t.me/adhologam_official'),
+            InlineKeyboardButton('𝐂ɪɴᴇᴍᴀꜱ 𝐆ʀᴏᴜᴘ™', url='https://t.me/adhologammovies_group')
             ],[
-            InlineKeyboardButton('ℹ️ Help', callback_data='help'),
-            InlineKeyboardButton('😊 About', callback_data='about')
+            InlineKeyboardButton('𝐒ᴇʀɪᴇꜱ 𝐎ꜰꜰɪᴄɪᴀʟ™', url='https://t.me/ADHOLOGAM_SERIES'),
+            InlineKeyboardButton('𝐒ᴇʀɪᴇꜱ 𝐆ʀᴏᴜᴘ™', url='https://t.me/AdhologamSeries')
+            ],[
+            InlineKeyboardButton('🎀 𝐒ᴛᴀᴛᴜꜱ 𝐖ᴏʀʟᴅ 🎀', url='https://t.me/Status_world_z')
+            ],[
+            InlineKeyboardButton('⚠️ ʜᴇʟᴩ ⚠️', callback_data='help'),
+            InlineKeyboardButton('🕵‍♀️ ᴀʙᴏᴜᴛ 🕵‍♂️', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
