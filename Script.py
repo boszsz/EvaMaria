@@ -1,6 +1,7 @@
 class script(object):
     START_TXT = """<b>HELLO</b> {} 💐,
- <i>My Name Is 🦋 𝙅𝞐𝙎𝞛𝞘𝞜𝞝 🦋 & I Can Provide Movies, Just Add Me To Your Groups And Enjoy...🤓</i>
+
+<i>My Name Is 🦋 𝙅𝞐𝙎𝞛𝞘𝞜𝞝 🦋 & I Can Provide Movies, Just Add Me To Your Groups And Enjoy...🤓</i>
  
  <i>I Have Some Additional Cool Features...🥳 Hit Help To Find Out My Commands...🔍</i>
  
@@ -9,8 +10,7 @@ class script(object):
 🖇 @adhologam_official🖇
 🖇 @adhologam_series 🖇
 ╚══❖•ೋ° °ೋ•❖══╝"""
-    HELP_TXT = """<b>HELLO</b> {}
-    
+    HELP_TXT = """<b>HELLO</b> {} 💐
 ⚙ <i>My Commands</i> ⚙
 
 <b><u>More Updates</u> :-</b>
@@ -69,9 +69,7 @@ class script(object):
 <b>📄 <u>ALERT BUTTONS</u> :</b>
 
 🔘 <code>[Button Text](buttonalert:This is an alert message)</code>"""
-    AUTOFILTER_TXT = """<b>📄 <u>AUTO FILTER</u> :</b>
-
-<b>⚠️ <u>NOTE</u> :</b>
+    AUTOFILTER_TXT = """<b>📄 <u>REQUEST</u> :</b>
 
 <i>ടെലിഗ്രാമിൽ റിലീസ് ആയിട്ടുള്ള പഴയതും പുതിയതുമായ എല്ലാ സിനിമകളും ഞങ്ങളുടെ ഡാറ്റബേസിൽ അപ്‌ലോഡ് ചെയ്തിട്ടുണ്ട്...❤️ ഇനി ഇതിൽ ഇല്ലാത്ത എതെകിലും മൂവീസ് ആഡ് ചെയ്യണം എങ്കിൽ  ഇ</i> <b>@MovieRequestt_Robot</b> <i>ബോട്ടിൽ മൂവിയുടെ NAME and YEAR അയക്കൂ...🤓</i>
 
