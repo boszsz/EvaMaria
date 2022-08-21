@@ -72,7 +72,7 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                    "🤖 Join Updates Channel", url=invite_link.invite_link
+                    "⚡️𝐉ᴏɪɴ 𝐌ᴀɪɴ 𝐂ʜᴀɴɴᴇʟ⚡️", url=invite_link.invite_link
                 )
             ]
         ]
@@ -81,12 +81,12 @@ async def start(client, message):
             try:
                 kk, file_id = message.command[1].split("_", 1)
                 pre = 'checksubp' if kk == 'filep' else 'checksub' 
-                btn.append([InlineKeyboardButton(" 🔄 Try Again", callback_data=f"{pre}#{file_id}")])
+                btn.append([InlineKeyboardButton(" 🔄 𝚃𝚁𝚈 𝙰𝙶𝙰𝙸𝙽 🔄", callback_data=f"{pre}#{file_id}")])
             except (IndexError, ValueError):
-                btn.append([InlineKeyboardButton(" 🔄 Try Again", url=f"https://t.me/{temp.U_NAME}?start={message.command[1]}")])
+                btn.append([InlineKeyboardButton(" 🔄 𝚃𝚁𝚈 𝙰𝙶𝙰𝙸𝙽 🔄", url=f"https://t.me/{temp.U_NAME}?start={message.command[1]}")])
         await client.send_message(
             chat_id=message.from_user.id,
-            text="**Please Join My Updates Channel to use this Bot!**",
+            text="**🔮 Please Join My Updates Channel to use this Bot!\n\n🔮ഞങ്ങളുടെ MAIN CHANNEL ജോയിൻ ചെയ്തതിന് ശേഷം TRY AGAIN എന്ന ബട്ടൺ ക്ലിക്ക് ചെയ്താൽ നിങ്ങൾ ചോദിച്ച സിനിമ കിട്ടുന്നതാണ്...🤓\n\n🔰 ഇതിൽ ജോയിൻ ചെയ്യാൻ പറയുന്നത് സിനിമ ചാനൽസ് ആയതിനാൽ ഏത് നിമിഷവും copyright കിട്ടി ചാനൽസ് ban ആവാൻ സാധ്യത ഉണ്ട്...അങ്ങനെ ബാൻ ആയാൽ പുതിയ ഗ്രൂപ്പ്‌ ലിങ്ക് ഇതിൽ ആവും പോസ്റ്റ്‌ ചെയുന്നത്...അതുകൊണ്ട് ഈ ചാനലിൽ നിന്നും താങ്കൾ ലെഫ്റ്റ് ആവില്ല എന്ന് കരുതുന്നു...❤️!\n\n⚠️ WEB SERIES വേണ്ടി @ADHOLOGAM_SERIES**",
             reply_markup=InlineKeyboardMarkup(btn),
             parse_mode=enums.ParseMode.MARKDOWN
             )
