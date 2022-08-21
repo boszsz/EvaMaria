@@ -83,19 +83,22 @@ class script(object):
 🖇 @adhologam_official🖇
 🖇 @adhologam_series 🖇
 ╚══❖•ೋ° °ೋ•❖══╝"""
-    CONNECTION_TXT = """Help: <b>Connections</b>
+    CONNECTION_TXT = """<b>📄 <u>CONNECTIONS</u> :</b>
 
-- Used to connect bot to PM for managing filters 
-- it helps to avoid spamming in groups.
+🔘 <i>Used To Connect Bot To PM For Managing Filters , It Helps To Avoid Spamming In Groups.</i>
 
-<b>NOTE:</b>
-1. Only admins can add a connection.
-2. Send <code>/connect</code> for connecting me to ur PM
+<b>⚠️ <u>NOTE</u> :</b>
 
-<b>Commands and Usage:</b>
-• /connect  - <code>connect a particular chat to your PM</code>
-• /disconnect  - <code>disconnect from a chat</code>
-• /connections - <code>list all your connections</code>"""
+🔘 <i>Only admins can add a connection.</i>
+🔘 <i>Send /connect for connecting me to ur PM</i>
+
+<b>📚 <u>COMMANDS AND USAGE</u> :</b> 
+
+➠ <b>/connect -</b> <code>connect a particular chat to your PM</code> 
+
+➠ <b>/disconnect -</b> <code>disconnect from a chat</code>
+
+➠ <b>/connections -</b> <code>list all your connections</code>"""
     EXTRAMOD_TXT = """Help: <b>Extra Modules</b>
 
 <b>NOTE:</b>
