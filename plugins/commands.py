@@ -23,10 +23,10 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('🤖 Updates', url='https://t.me/TeamEvamaria')
+                InlineKeyboardButton('𝐂ɪɴᴇᴍᴀꜱ 𝐎ꜰꜰɪᴄɪᴀʟ™', url='https://t.me/adhologam_official')
             ],
             [
-                InlineKeyboardButton('ℹ️ Help', url=f"https://t.me/{temp.U_NAME}?start=help"),
+                InlineKeyboardButton('⚠️ ʜᴇʟᴩ ⚠️', url=f"https://t.me/{temp.U_NAME}?start=help"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -42,13 +42,18 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('🔛 𝐀ᴅᴅ 𝐌ᴇ 𝐓ᴏ 𝐘ᴏᴜʀ 𝐆ʀᴏᴜᴘꜱ 🔛', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🤖 Updates', url='https://t.me/TeamEvamaria')
+            InlineKeyboardButton('𝐂ɪɴᴇᴍᴀꜱ 𝐎ꜰꜰɪᴄɪᴀʟ™', url='https://t.me/adhologam_official'),
+            InlineKeyboardButton('𝐂ɪɴᴇᴍᴀꜱ 𝐆ʀᴏᴜᴘ™', url='https://t.me/adhologammovies_group')
             ],[
-            InlineKeyboardButton('ℹ️ Help', callback_data='help'),
-            InlineKeyboardButton('😊 About', callback_data='about')
+            InlineKeyboardButton('𝐒ᴇʀɪᴇꜱ 𝐎ꜰꜰɪᴄɪᴀʟ™', url='https://t.me/ADHOLOGAM_SERIES'),
+            InlineKeyboardButton('𝐒ᴇʀɪᴇꜱ 𝐆ʀᴏᴜᴘ™', url='https://t.me/AdhologamSeries')
+            ],[
+            InlineKeyboardButton('🎀 𝐒ᴛᴀᴛᴜꜱ 𝐖ᴏʀʟᴅ 🎀', url='https://t.me/Status_world_z')
+            ],[
+            InlineKeyboardButton('⚠️ ʜᴇʟᴩ ⚠️', callback_data='help'),
+            InlineKeyboardButton('🕵‍♀️ ᴀʙᴏᴜᴛ 🕵‍♂️', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
