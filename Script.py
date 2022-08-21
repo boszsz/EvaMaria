@@ -33,34 +33,42 @@ class script(object):
 
 <b>DEVS:</b>
 - <a href=https://t.me/TeamEvamaria>Team Eva Maria</a>"""
-    MANUELFILTER_TXT = """Help: <b>Filters</b>
+    MANUELFILTER_TXT = """<b>📄 <u>MANUAL FILTERS</u> :</b>
 
-- Filter is the feature were users can set automated replies for a particular keyword and EvaMaria will respond whenever a keyword is found the message
+🔘 <i>Filter Is The Feature Were Users Can Set Automated Replies For a Particular Keyword And 🦋 Jasmine 🦋 Will Respond Whenever a Keyword Is Found The Message, This bot Supports Both Url And Alert Inline Buttons.</i>
 
-<b>NOTE:</b>
-1. eva maria should have admin privillage.
-2. only admins can add filters in a chat.
-3. alert buttons have a limit of 64 characters.
+<b>⚠️ <u>NOTE</u> :</b>
 
-<b>Commands and Usage:</b>
-• /filter - <code>add a filter in chat</code>
-• /filters - <code>list all the filters of a chat</code>
-• /del - <code>delete a specific filter in chat</code>
-• /delall - <code>delete the whole filters in a chat (chat owner only)</code>"""
-    BUTTON_TXT = """Help: <b>Buttons</b>
+🔘 <i>🦋 Jasmine 🦋 Should Have Admin Privillage.</i>
+🔘 <i>Only Admins Can Add Filters In a Chat.</i>
+🔘 <i>Alert Buttons Have a Limit Of 64 Characters.</i>
 
-- Eva Maria Supports both url and alert inline buttons.
+📚 <b><u>COMMANDS AND USAGE</u> :</b>
 
-<b>NOTE:</b>
-1. Telegram will not allows you to send buttons without any content, so content is mandatory.
-2. Eva Maria supports buttons with any telegram media type.
-3. Buttons should be properly parsed as markdown format
+➠ <b>/filter -</b> <code>Add a Filter In Chat</code>
 
-<b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://t.me/EvaMariaBot)</code>
+➠ <b>/filters -</b> <code>List All The Filters Of a Chat</code>
 
-<b>Alert buttons:</b>
-<code>[Button Text](buttonalert:This is an alert message)</code>"""
+➠ <b>/del -</b> <code>Delete a Specific Filter In Chat</code>
+
+➠ <b>/delall -</b> <code>Delete The Whole Filters In a Chat (chat owner only)</code>"""
+    BUTTON_TXT = """<b>📄 <u>FORMATION</u> :</b>
+
+<i>🦋 Jasmine 🦋 Supports Both Url And Alert Inline Buttons.</i>
+
+<b>⚠️ <u>NOTE</u> :</b>
+
+🔘 <i>Telegram Will Not Allows You To Send Buttons Without Any Content, So Content Is Mandatory.</i>
+🔘 <i>🦋 Jasmine 🦋 Supports Buttons With Any Telegram Media Type.</i>
+🔘 <i>Buttons Should Be Properly Parsed As Markdown Format.</i>
+
+<b>📄 <u>URL BUTTONS</u> :</b>
+
+🔘 <code>[Button Text](buttonurl:https://t.me/EvaMariaBot)</code>
+
+<b>📄 <u>ALERT BUTTONS</u> :</b>
+
+🔘 <code>[Button Text](buttonalert:This is an alert message)</code>"""
     AUTOFILTER_TXT = """Help: <b>Auto Filter</b>
 
 <b>NOTE:</b>
