@@ -94,43 +94,61 @@ class script(object):
 
 <b>📚 <u>COMMANDS AND USAGE</u> :</b> 
 
-➠ <b>/connect -</b> <code>connect a particular chat to your PM</code> 
+➠ <b>/connect -</b> <code>Connect a Particular Chat To Your PM</code> 
 
-➠ <b>/disconnect -</b> <code>disconnect from a chat</code>
+➠ <b>/disconnect -</b> <code>Disconnect From a Chat</code>
 
-➠ <b>/connections -</b> <code>list all your connections</code>"""
-    EXTRAMOD_TXT = """Help: <b>Extra Modules</b>
+➠ <b>/connections -</b> <code>List All Your Connections</code>"""
+    EXTRAMOD_TXT = """<b>📄 <u>MODULES</u> :</b>
 
-<b>NOTE:</b>
-these are the extra features of Eva Maria
+🔘 <i>I Have Some Additional Cool Features.</i>
 
-<b>Commands and Usage:</b>
-• /id - <code>get id of a specified user.</code>
-• /info  - <code>get information about a user.</code>
-• /imdb  - <code>get the film information from IMDb source.</code>
-• /search  - <code>get the film information from various sources.</code>"""
-    ADMIN_TXT = """Help: <b>Admin mods</b>
+<b>⚠️ <u>NOTE</u> :</b>
 
-<b>NOTE:</b>
-This module only works for my admins
+🔘 <i>This Will Help You Get Information About User.</i>
+🔘 <i>To Get The Imdb Poster.</i>
 
-<b>Commands and Usage:</b>
-• /logs - <code>to get the rescent errors</code>
-• /stats - <code>to get status of files in db.</code>
-• /delete - <code>to delete a specific file from db.</code>
-• /users - <code>to get list of my users and ids.</code>
-• /chats - <code>to get list of the my chats and ids </code>
-• /leave  - <code>to leave from a chat.</code>
-• /disable  -  <code>do disable a chat.</code>
-• /ban  - <code>to ban a user.</code>
-• /unban  - <code>to unban a user.</code>
-• /channel - <code>to get list of total connected channels</code>
-• /broadcast - <code>to broadcast a message to all users</code>"""
-    STATUS_TXT = """★ 𝚃𝙾𝚃𝙰𝙻 𝙵𝙸𝙻𝙴𝚂: <code>{}</code>
-★ 𝚃𝙾𝚃𝙰𝙻 𝚄𝚂𝙴𝚁𝚂: <code>{}</code>
-★ 𝚃𝙾𝚃𝙰𝙻 𝙲𝙷𝙰𝚃𝚂: <code>{}</code>
-★ 𝚄𝚂𝙴𝙳 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝚒𝙱
-★ 𝙵𝚁𝙴𝙴 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝚒𝙱"""
+<b>📚 <u>COMMANDS AND USAGE</u> :</b>
+
+➠ <b>/id -</b> <code>get Id Of a Specified User.</code>
+
+➠ <b>/info -</b> <code>Get Information About a User.</code>
+
+➠ <b>/imdb -</b> <code>Film Information From IMDb Source.</code>
+
+➠ <b>/search -</b> <code>Film Information From Various Sources.</code>"""
+    ADMIN_TXT = """<b>📄 <u>ADMINS</u> :</b>
+
+🔘 <i>Here Is The Admin Commands</i>
+
+<b>⚠️ <u>NOTE</u> :</b>
+
+🔘 <i>These Commands Only Works For My Admins.</i>
+
+<b>📚 <u>COMMANDS AND USAGE</u> :</b>
+
+➠ <b>/logs -</b> <code>to get the rescent errors</code>
+➠ <b>/stats -</b> <code>to get status of files in db.</code>
+➠ <b>/delete -</b> <code>to delete a specific file from db.</code>
+➠ <b>/users -</b> <code>to get list of my users and ids.</code>
+➠ <b>/chats -</b> <code>to get list of the my chats and ids </code>
+➠ <b>/leave -</b> <code>to leave from a chat.</code>
+➠ <b>/disable -</b>  <code>do disable a chat.</code>
+➠ <b>/ban -</b> <code>to ban a user.</code>
+➠ <b>/unban -</b> <code>to unban a user.</code>
+➠ <b>/channel -</b> <code>to get list of total connected channels</code>
+➠ <b>/broadcast -</b> <code>to broadcast a message to all users</code>"""
+    STATUS_TXT = """<b>📄 <u>STATUS</u> :</b>
+    
+⇛ <b>ᴛᴏᴛᴀʟ ꜰɪʟᴇꜱ :</b> <code>{}</code>
+
+⇛ <b>ᴛᴏᴛᴀʟ ᴜꜱᴇʀꜱ :</b> <code>{}</code>
+
+⇛ <b>ᴛᴏᴛᴀʟ ᴄʜᴀᴛꜱ :</b> <code>{}</code>
+
+⇛ <b>ᴜꜱᴇᴅ ꜱᴛᴏʀᴀɢᴇ :</b> <code>{}</code> 𝙼𝚒𝙱
+
+⇛ <b>ꜰʀᴇᴇ ꜱᴛᴏʀᴀɢᴇ :</b> <code>{}</code> 𝙼𝚒𝙱"""
     LOG_TEXT_G = """#NewGroup
 Group = {}(<code>{}</code>)
 Total Members = <code>{}</code>
