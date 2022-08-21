@@ -69,13 +69,20 @@ class script(object):
 <b>📄 <u>ALERT BUTTONS</u> :</b>
 
 🔘 <code>[Button Text](buttonalert:This is an alert message)</code>"""
-    AUTOFILTER_TXT = """Help: <b>Auto Filter</b>
+    AUTOFILTER_TXT = """<b>📄 <u>AUTO FILTER</u> :</b>
 
-<b>NOTE:</b>
-1. Make me the admin of your channel if it's private.
-2. make sure that your channel does not contains camrips, porn and fake files.
-3. Forward the last message to me with quotes.
- I'll add all the files in that channel to my db."""
+<b>⚠️ <u>NOTE</u> :</b>
+
+<i>ടെലിഗ്രാമിൽ റിലീസ് ആയിട്ടുള്ള പഴയതും പുതിയതുമായ എല്ലാ സിനിമകളും ഞങ്ങളുടെ ഡാറ്റബേസിൽ അപ്‌ലോഡ് ചെയ്തിട്ടുണ്ട്...❤️ ഇനി ഇതിൽ ഇല്ലാത്ത എതെകിലും മൂവീസ് ആഡ് ചെയ്യണം എങ്കിൽ  ഇ</i> <b>@MovieRequestt_Robot</b> <i>ബോട്ടിൽ മൂവിയുടെ NAME and YEAR അയക്കൂ...🤓</i>
+
+ᴅᴠᴅʀɪᴘ - ʙʟᴜᴇ-ʀᴀʏ - ʜᴅʀɪᴘ - ᴡᴇʙʀɪᴘ
+ᴇɴɢʟɪꜱʜ - ʜɪɴᴅɪ - ᴛᴀᴍɪʟ - ᴛᴇʟᴜɢᴜ -ᴍᴀʟᴀʏᴀʟᴀᴍ
+
+<b><u>More Updates</u> :-</b>
+╔══❖•ೋ° °ೋ•❖══╗       
+🖇 @adhologam_official🖇
+🖇 @adhologam_series 🖇
+╚══❖•ೋ° °ೋ•❖══╝"""
     CONNECTION_TXT = """Help: <b>Connections</b>
 
 - Used to connect bot to PM for managing filters 
