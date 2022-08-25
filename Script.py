@@ -1,7 +1,7 @@
 class script(object):
     START_TXT = """<b>HELLO</b> {} 💐,
     
-<i>My Name Is 🦋 𝙅𝞐𝙎𝞛𝞘𝞜𝞝 🦋 & I Can Provide Movies, Just Add Me To Your Groups And Enjoy...🤓</i>
+<i>My Name Is <a href=https://t.me/AM_MOVIESBOT>🦋 𝙅𝞐𝙎𝞛𝞘𝞜𝞝 🦋</a> & I Can Provide Movies, Just Add Me To Your Groups And Enjoy...🤓</i>
  
  <i>I Have Some Additional Cool Features...🥳 Hit Help To Find Out My Commands...🔍</i>
  
@@ -21,7 +21,7 @@ class script(object):
 ╚══❖•ೋ° °ೋ•❖══╝"""
     ABOUT_TXT = """<b> ABOUT ME 🔍</b>
 
-🕵‍♂ <i>MY NAME :-</i> 🦋 𝙅𝞐𝙎𝞛𝞘𝞜𝞝 🦋
+🕵‍♂ <i>MY NAME :-</i> <a href=https://t.me/AM_MOVIESBOT>🦋 𝙅𝞐𝙎𝞛𝞘𝞜𝞝 🦋</a>
 
 🕵‍♂ <i>CREATOR :-</i> <a href=https://t.me/STEPHEN_OF_TELEGRAM>☞ͥ͟⋆ͣ͟⋆ͫ°»Ꮢ๏ʟєχ𓅇꙰</a>
 
@@ -36,11 +36,11 @@ class script(object):
 - <a href=https://t.me/TeamEvamaria>Team Eva Maria</a>"""
     MANUELFILTER_TXT = """<b>📄 <u>MANUAL FILTERS</u> :</b>
 
-🔘 <i>Filter Is The Feature Were Users Can Set Automated Replies For a Particular Keyword And 🦋 Jasmine 🦋 Will Respond Whenever a Keyword Is Found The Message, This bot Supports Both Url And Alert Inline Buttons.</i>
+🔘 <i>Filter Is The Feature Were Users Can Set Automated Replies For a Particular Keyword And <a href=https://t.me/AM_MOVIESBOT>🦋 𝙅𝞐𝙎𝞛𝞘𝞜𝞝 🦋</a> Will Respond Whenever a Keyword Is Found The Message, This bot Supports Both Url And Alert Inline Buttons.</i>
 
 <b>⚠️ <u>NOTE</u> :</b>
 
-🔘 <i>🦋 Jasmine 🦋 Should Have Admin Privillage.</i>
+🔘 <i><a href=https://t.me/AM_MOVIESBOT>🦋 𝙅𝞐𝙎𝞛𝞘𝞜𝞝 🦋</a> Should Have Admin Privillage.</i>
 🔘 <i>Only Admins Can Add Filters In a Chat.</i>
 🔘 <i>Alert Buttons Have a Limit Of 64 Characters.</i>
 
@@ -55,17 +55,17 @@ class script(object):
 ➠ <b>/delall -</b> <code>Delete The Whole Filters In a Chat (chat owner only)</code>"""
     BUTTON_TXT = """<b>📄 <u>FORMATION</u> :</b>
 
-<i>🦋 Jasmine 🦋 Supports Both Url And Alert Inline Buttons.</i>
+<i><a href=https://t.me/AM_MOVIESBOT>🦋 𝙅𝞐𝙎𝞛𝞘𝞜𝞝 🦋</a> Supports Both Url And Alert Inline Buttons.</i>
 
 <b>⚠️ <u>NOTE</u> :</b>
 
 🔘 <i>Telegram Will Not Allows You To Send Buttons Without Any Content, So Content Is Mandatory.</i>
-🔘 <i>🦋 Jasmine 🦋 Supports Buttons With Any Telegram Media Type.</i>
+🔘 <i><a href=https://t.me/AM_MOVIESBOT>🦋 𝙅𝞐𝙎𝞛𝞘𝞜𝞝 🦋</a> Supports Buttons With Any Telegram Media Type.</i>
 🔘 <i>Buttons Should Be Properly Parsed As Markdown Format.</i>
 
 <b>📄 <u>URL BUTTONS</u> :</b>
 
-🔘 <code>[Button Text](buttonurl:https://t.me/EvaMariaBot)</code>
+🔘 <code>[Button Text](buttonurl:https://t.me/AM_MOVIESBOT)</code>
 
 <b>📄 <u>ALERT BUTTONS</u> :</b>
 
