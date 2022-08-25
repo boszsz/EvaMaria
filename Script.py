@@ -19,7 +19,7 @@ class script(object):
 🖇 @adhologam_official🖇
 🖇 @adhologam_series 🖇
 ╚══❖•ೋ° °ೋ•❖══╝"""
-    ABOUT_TXT = """<b> ABOUT ME 🔍</b>
+    ABOUT_TXT = """<b><u> ABOUT ME</u> 🔍</b>
 
 🕵‍♂ <i>MY NAME :-</i> <a href=https://t.me/AM_MOVIESBOT>🦋 𝙅𝞐𝙎𝞛𝞘𝞜𝞝 🦋</a>
 
